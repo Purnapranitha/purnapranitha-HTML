@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+    <style>
+        p,ol{
+            color: aqua
+            background-color : darkgrey;
+            border:10px solid blue;
+            height:30%;
+            font-style:italic;
+            font-weight:100;
+            font-family:'Times New Roman',Times,serif;
+            word-spacing: 1cm;
+        }
+    </style>
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mywebsite</title>
+    <link rel="stylesheet" href="">
+</head>
+
+<body>
+    <h1>This is paragraph tag</h1>
+    <p>
+        Lorem ipsum, dolor sit amet consectetur adipisicing elit. Rerum mollitia repellat, necessitatibus corporis eius
+        expedita accusamus. Exercitationem, quaerat. Dolore quo nostrum reprehenderit optio, molestiae officia
+        voluptatum doloremque. Eos, voluptatem velit?
+       
+    </p>
+     <ol>
+        <li>B-tech</li>
+        <ul>
+            <li>CSE</li>
+            <li>ECE</li>
+            <li>EEE</li>
+        </ul>
+        <li>M-tech</li>
+        
+    </ol>
+</html>
