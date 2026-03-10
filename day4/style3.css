@@ -77,3 +77,26 @@ background-color: rgba(0, 0, 255, 0.426);
 border-radius: 20px;
 cursor: pointer;
 }
+.switch.lit{
+    display:none;
+}
+.dark-mode.switch{
+    background-color: :rgb(115, 154, 238);
+}
+.darh-mode.switch.lit{
+    display: block;
+}
+.dark-mode.nav{
+    background-color: #174098;
+    color: white;
+}
+.dark-mode.nav a{
+    color: white;
+}
+.dark-mode.main{
+    background-color: 3041a49;
+}
+.dark-mode.hero button{
+    color: black;
+   background-color:#7aa1f7;
+}
