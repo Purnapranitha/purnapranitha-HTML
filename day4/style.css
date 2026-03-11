@@ -6,7 +6,6 @@
 .container{
     height: 100vh;
     width: 100vw;
-    background-color: rgb(69, 123, 237);
 }
 .nav{
     height: 10%;
@@ -31,19 +30,19 @@
     padding-right: 20px;
     font-size: larger;
 }
-img{
+.img{
     height: 250px;
     width: 600px;
     border: 15px solid #DDDDDD;
 }
 
 .main{
-    width: 100%;
-    height: 86%;
+    height: 89.48%;
     display: flex;
     align-items: center;
     justify-content: center;
     padding: 0px 120px;
+    background-color: rgb(69, 123, 237);
 }
 
 .hero h1{
@@ -64,39 +63,45 @@ img{
         margin: 10px;
         border: none;
 }
+
 .switch{
-display: flex;
-align-items: center;
-width: 5rem;
-height: 2rem;
-justify-content: space-evenly;
-padding: 5ppx 10px;
-border:none;
-outline: none;
-background-color: rgba(0, 0, 255, 0.426);
-border-radius: 20px;
-cursor: pointer;
+    display: flex;
+    align-items: center;
+    width: 5rem;
+    height: 2rem;
+    justify-content: space-evenly;
+    padding: 5px 10px;
+    border: none;
+    outline: none;
+    background-color: rgb(7, 32,85);
+    border-radius: 20px;
+    cursor: pointer;
 }
-.switch.lit{
-    display:none;
+.switch .lit{
+    display: none;
 }
-.dark-mode.switch{
-    background-color: :rgb(115, 154, 238);
+
+.dark-mode .switch{
+    background-color: rgb(115, 154, 238);
 }
-.darh-mode.switch.lit{
-    display: block;
+.dark-mode .switch .drk{
+    display: none;
 }
-.dark-mode.nav{
+.dark-mode .switch .lit{
+    display:block;
+}
+.dark-mode .nav{
     background-color: #174098;
-    color: white;
+    color:white;
 }
-.dark-mode.nav a{
-    color: white;
+.dark-mode .nav a{
+    color:white;
 }
-.dark-mode.main{
-    background-color: 3041a49;
+.dark-mode .main{
+    background-color: #041a49;
 }
-.dark-mode.hero button{
+
+.dark-mode .hero button{
     color: black;
-   background-color:#7aa1f7;
+    background-color: #7aa1f7;
 }
