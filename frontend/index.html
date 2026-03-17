@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Todo List Authentication</title>
+<link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+<!-- LOGIN -->
+<div class="container" id="loginPage">
+
+<h2>Login</h2>
+
+<input type="text" id="loginUser" placeholder="Username">
+<input type="password" id="loginPass" placeholder="Password">
+
+<button onclick="login()">Login</button>
+
+<p>New user?</p>
+<button onclick="showRegister()">Register</button>
+
+</div>
+
+
+<!-- REGISTER -->
+<div class="container hidden" id="registerPage">
+
+<h2>Register</h2>
+
+<input type="text" id="regUser" placeholder="Username">
+<input type="password" id="regPass" placeholder="Password">
+
+<button onclick="register()">Register</button>
+
+<br><br>
+
+<button onclick="showLogin()">Back to Login</button>
+
+</div>
+
+
+<!-- DASHBOARD -->
+<div class="container hidden" id="dashboard">
+
+<h2>My Todo List</h2>
+
+<input type="text" id="taskInput" placeholder="Enter task">
+
+<button onclick="addTask()">Add Task</button>
+
+<ul id="taskList"></ul>
+
+<br>
+
+<button onclick="logout()">Logout</button>
+
+</div>
+
+<script src="script.js"></script>
+
+</body>
+</html>
